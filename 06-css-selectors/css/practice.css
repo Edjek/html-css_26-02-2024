@@ -1,0 +1,28 @@
+h1,
+.txt-cl-blue {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: orange;
+}
+
+.olympiades {
+    color: grey;
+}
+
+.country {
+    color: pink;
+}
+
+.txt-cl-purple {
+    color: purple;
+}
+
+.txt-italic {
+    font-style: italic;
+}
