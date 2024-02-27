@@ -20,7 +20,7 @@ body {
     /* left | center | right */
 }
 
-h1 {
+.title {
     font-size: 40px;
 }
 
@@ -34,13 +34,14 @@ p {
     color: #333;
 }
 
-span {
+.css {
     font-weight: bold;
     font-style: italic;
 }
 
 ul {
     list-style: none;
+    text-align: left;
 }
 
 .baleine {
