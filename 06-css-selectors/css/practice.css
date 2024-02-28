@@ -1,10 +1,20 @@
-h1,
-.txt-cl-blue {
-    color: blue;
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
 }
 
+h1 {
+    color: blue;
+    font-weight: normal;
+}
+
+h1:hover {
+    color: pink;
+}
 h2 {
     color: green;
+    text-decoration: underline;
+    text-align: center;
 }
 
 p {
@@ -23,6 +33,28 @@ p {
     color: purple;
 }
 
+.txt-center {
+    text-align: right;
+}
+
+.txt-cl-blue {
+    color: blue;
+    font-weight: normal;
+}
+
 .txt-italic {
     font-style: italic;
+}
+
+.txt-uppercase {
+    text-transform: uppercase;
+}
+
+.title-olympique {
+    text-decoration: none;
+}
+
+.list-sports {
+    text-align: center;
+    list-style: none;
 }
