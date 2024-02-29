@@ -1,6 +1,28 @@
-
 * {
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
+}
+
+header {
+  background-color: rgb(31, 158, 31);
+  color: #fff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav {
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
