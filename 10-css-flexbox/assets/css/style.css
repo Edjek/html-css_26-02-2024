@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+    background-color: #4cfa50;
+    margin: 50px;
+    height: 500px;
+
+    /* La propriete { display : flex; } donne un pouvoir sur les elements enfants direct */
+    display: flex;
+
+    /* La propriete { flex-direction: ; } permet de choisir la direction de l'axe principale */
+    flex-direction: row;
+    /* row |column */
+
+    /* La propriete { justify-content: ; } permet d'aligner dans le sens horizontal */
+    justify-content: flex-end;
+    /* flex-start | flex-end | center | space-between|space-around  */
+
+    /* La propriete { align-items: ; } permet d'aligner dans l'axe secondaire */
+    align-items: flex-start;
+    /* flex-start | center | flex-end */
+
+    /* gap permet de mettre de l'espace entre les enfants direct */
+    gap: 20px;
+
+    /* La propriete { flex-wrap: wrap; } fait retourner à la ligne les elements enfants s'ils n'ont plus de place */
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
