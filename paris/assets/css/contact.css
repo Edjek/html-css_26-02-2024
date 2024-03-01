@@ -1,0 +1,44 @@
+.contact {
+    margin-top: 100px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-contact {
+    width: 80%;
+    max-width: 750px;
+    min-width: 400px;
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 8px 16px 16px #0000001a;
+    border-radius: 5px;
+}
+
+.email-container {
+    margin-bottom: 20px;
+}
+
+.email,
+.message {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.message {
+    height: 100px;
+}
+
+.submit {
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
